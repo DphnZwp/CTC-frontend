@@ -101,6 +101,10 @@ header {
 }
 
 /* BOOKING */
+.booking-header>h1 {
+  margin-bottom: .5em;
+}
+
 .booking__form-group {
   color: var(--clr-white);
   display: flex;
