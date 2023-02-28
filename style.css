@@ -158,3 +158,25 @@ header {
   padding-top: 2em;
   padding-left: 1.5625em;
 }
+
+/* LOADING */
+.loading {
+  background-image: url("/assets/images/Loadstate-background.png");
+  background-size: cover;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.loading>svg {
+  width: 154px;
+}
+
+.loading-animation {
+  animation: spin 1.5s linear infinite;
+  transform-origin: 50% 20px;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
