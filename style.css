@@ -122,8 +122,12 @@ header {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-.manage__btn-group {
+.manage {
   padding-top: 1em;
+}
+
+.manage__btn-group {
+  margin-bottom: 2em;
   display: flex;
   justify-content: center;
   gap: 2em;
